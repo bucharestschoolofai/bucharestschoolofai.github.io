@@ -1,0 +1,51 @@
+body {
+	font-size: 16px;
+	font-family: "Montserrat";
+}
+
+.landing-wrapper {
+	height: 700px;
+	position: relative;
+}
+
+.landing {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 70% 30%;
+}
+
+.landing-text h1 {
+	font-size: 4em;
+	font-weight: 800;
+}
+
+.landing-text p {
+	font-weight: 200;
+}
+
+.btn-theme {
+    background-image: linear-gradient(-45deg, #ff6f00, #ffa800);
+	padding: 0.7em;
+	border: none;
+}
+
+.navbar button {
+    color: #ff6f00;
+    background:none;
+    border:none;
+    transition: 0.5s all;
+}
+
+.navbar button:hover {
+    color: #fff;
+    background: #ff6f00;
+    border:none;
+}
+
+@media only screen and (max-width: 768px) {
+	.landing {
+		grid-template-columns: 100%;
+		grid-template-rows: 50% 50%;
+		align-items: center;
+	}
+}
