@@ -1,0 +1,76 @@
+body {
+	font-family: "Montserrat";
+}
+
+.btn-info {
+	margin: none;
+}
+
+.grid-system {
+	margin-top: 2em;
+	align-items: center;
+}
+
+.landing-illustration img {
+	display: block;
+	margin: auto;
+	height: 500px;
+	width: 500px;
+}
+
+.landing-text h1 {
+	font-size: 4em;
+	font-weight: 800;
+}
+
+.social span:hover {
+	color: #ffa800;
+}
+
+.social span {
+	font-size: 1.5em;
+	margin-left: 1em;
+	transition: 0.2s all ease-in;
+	float: right;
+}
+
+.landing-text p {
+	font-weight: 200;
+}
+
+.normal-button {
+	color: white;
+	background-image: linear-gradient(-45deg, #ff6f00, #ffa800);
+	padding: 0.7em;
+	border: none;
+}
+
+.fade-button {
+	color: #ffa800;
+	background: #ffaa0000;
+	border: none;
+	transition: 0.3s all;
+}
+
+.separator-grid {
+	margin-top:2em;
+	align-items: center;
+}
+
+.fade-button:hover {
+	color: #fff;
+	background: #ffa800;
+	border: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.landing-text {
+		text-align: center;
+	}
+
+	.landing-illustration img {
+		margin-top: 2em;
+		height: 375px;
+		width: 375px;
+	}
+}
