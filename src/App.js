@@ -1,20 +1,18 @@
 import React from "react";
+import EventViewer from "./components/EventViewer";
+import { Route, BrowserRouter } from "react-router-dom";
 import Navigation from "./components/Navbar";
-import Landing from "./components/Landing";
-import Seperator from "./components/Separator";
-import ImageText from "./components/ImageText";	
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
+import EventOverview from "./components/EventOverview";
 
 function App() {
 	return (
-		<React.Fragment>
+		<BrowserRouter>
 			<Navigation></Navigation>
-			<Landing></Landing>
-			<Seperator text="About"></Seperator>
-			<ImageText orientation="left"></ImageText>
-		</React.Fragment>
+			<Route exact path="/" component={EventOverview} />
+			<Route path="/:event" component={EventViewer} />
+		</BrowserRouter>
 	);
 }
 

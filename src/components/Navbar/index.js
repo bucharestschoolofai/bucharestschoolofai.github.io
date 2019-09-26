@@ -14,7 +14,9 @@ const Navigation = () => {
 			<Container>
 				<Navbar>
 					<Navbar.Brand>
-						<img src={logo} alt="BSoAI Logo" height={65} width={65}></img>
+						<a href="https://bucharestschoolofai.github.io">
+							<img src={logo} alt="BSoAI Logo" height={65} width={65}></img>
+						</a>
 					</Navbar.Brand>
 					<Navbar.Toggle />
 					<Navbar.Collapse className="justify-content-end">
@@ -26,7 +28,7 @@ const Navigation = () => {
 			</Container>
 			<Modal show={show} onHide={handleClose}>
 				<Modal.Header closeButton>
-					<Modal.Title>Modal heading</Modal.Title>
+					<Modal.Title>Contact</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
 					Coming soon :) <br />

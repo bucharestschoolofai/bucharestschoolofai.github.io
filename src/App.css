@@ -6,38 +6,6 @@ body {
 	margin: none;
 }
 
-.grid-system {
-	margin-top: 2em;
-	align-items: center;
-}
-
-.landing-illustration img {
-	display: block;
-	margin: auto;
-	height: 500px;
-	width: 500px;
-}
-
-.landing-text h1 {
-	font-size: 4em;
-	font-weight: 800;
-}
-
-.social span:hover {
-	color: #ffa800;
-}
-
-.social span {
-	font-size: 1.5em;
-	margin-left: 1em;
-	transition: 0.2s all ease-in;
-	float: right;
-}
-
-.landing-text p {
-	font-weight: 200;
-}
-
 .normal-button {
 	color: white;
 	background-image: linear-gradient(-45deg, #ff6f00, #ffa800);
@@ -55,6 +23,7 @@ body {
 .separator-grid {
 	margin-top:2em;
 	align-items: center;
+	margin-bottom: 2em;
 }
 
 .fade-button:hover {
